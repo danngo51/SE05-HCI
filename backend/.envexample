@@ -1,0 +1,4 @@
+
+DB_NAME = "HCI_DATABASE"
+DB_USER = "postgres"
+DB_PASSWORD = ""
