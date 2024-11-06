@@ -17,3 +17,18 @@ def register(request):
 
 def logIn(request):
     return render(request, 'main/logIn.html')
+
+def personalization(request):
+    return render(request, 'home/~~.html') # 4 html
+
+def home(request):
+    return render(request, 'home/home.html')
+
+def preferences(request):
+    return render(request, 'home/preferences.html')
+
+def recipe(request):
+    return render(request, 'home/recipe.html')
+
+def mypage(request):
+    return render(request, 'home/~~.html') # 3 html (preferences.html, profile.html, history.html)
